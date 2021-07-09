@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* First Section of the page */
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.87), rgba(8, 0, 0, 0.897)),
+    url(./img/background-img.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.8;
+  min-width: 100%;
+  height: 42rem;
+}
+
+.left-nav {
+  width: 25%;
+  position: absolute;
+  left: 30px;
+}
+
+.right-nav {
+  width: 25%;
+  position: absolute;
+  right: 20px;
+}
+
+a {
+  display: inline-block;
+  justify-content: space-around;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.brand-logo {
+  color: white;
+  height: 100px;
+  padding: 20px;
+  align-items: center;
+}
+
+#home-link {
+  color: #e58f00;
+}
+
+.breakfast-img {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  padding: 20px 172px 122px 47px;
+}
+
+.breakfast-headline {
+  position: absolute;
+  top: 250px;
+  right: 180px;
+  font-size: 30px;
+  align-items: center;
+  color: #e58f00;
+}
+
+.breakfast-text {
+  padding-top: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.btn-container {
+  position: absolute;
+  top: 450px;
+  right: 345px;
+  padding: 10px;
+}
+
+.contact-btn {
+  width: 200px;
+  height: 70px;
+  margin: 15px 60px 66px 59px;
+  padding: 25px 38px 26px;
+  border-radius: 5px;
+  background-color: #e58f00;
+  font-size: 20px;
+  align-content: center;
+}
+
+.about-us {
+  background-color: #1d1d23;
+  height: 2800px;
+  width: 100%;
+  padding: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.aboutus-text {
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  right: 90px;
+  top: 820px;
+  padding: 30px;
+}
+
+.aboutus-headline {
+  position: absolute;
+  right: 450px;
+  top: 800px;
+}
+
+.img-container {
+  width: 200px;
+  height: auto;
+}
+
+.aboutus-img {
+  width: 646px;
+  height: 645px;
+}
+
+.wuffle-img {
+  width: 529px;
+  height: 791px;
+  margin: 77px 0 0 81px;
+  object-fit: contain;
+}
+
+.wuffle-container {
+  position: absolute;
+  right: -240px;
+  margin: 77px 0 0 81px;
+}
+
+.food-quality {
+  position: absolute;
+  top: 1750px;
+  width: 120%;
+  margin-left: -250px;
+  height: 1500px;
+  background-image: url(./img/shape@3x.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.our-food-headline {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  font-family: Times New Roman;
+}
+
+.our-food-text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 350px;
+  left: 300px;
+  font-family: Times New Roman;
+}
+
+.egg-plate {
+  position: absolute;
+  top: 2400px;
+  right: 40px;
+}
+
+.egg-plate-img {
+  height: 770px;
+  width: 750px;
+  margin: -60px -40px -20px -50px;
+}
+
+.strawberry-plate {
+  position: absolute;
+  top: 2600px;
+  left: 0px;
+}
+
+.strawberry-plate-img {
+  width: 520px;
+  height: 700px;
+  margin: -20px 20px 0 -80px;
+}
+
+.our-food-gallery {
+  padding: 50px 500px;
+  background-color: #1d1d23;
+}
+
+.row {
+  background-color: #1d1d23;
+  width: 100%;
+  height: auto;
+  display: flex;
+  float: left;
+  padding: 20px 40px 10px 20px;
+  justify-content: space-around;
+}
+
+.first-img {
+  width: 400px;
+  height: 480px;
+}
+
+.second-img {
+  width: 400px;
+  height: 480px;
+}
+.third-img {
+  width: 400px;
+  height: 480px;
+}
+.fourth-img {
+  width: 400px;
+  height: 480px;
+  margin-bottom: 190px;
+}
+
+.fifth-img {
+  width: 400px;
+  height: 480px;
+  margin-bottom: 190px;
+}
+
+.sixth-img {
+  width: 400px;
+  height: 480px;
+  margin-bottom: 190px;
+}
+
+.enjoy-our-food {
+  width: 100%;
+  height: 1900px;
+  background-color: #1d1d23;
+  background-image: url(./img/A462526E-C5B4-42A3-B00B-B32B62CE898D.png);
+  margin-top: 250px;
+  margin-bottom: -40px;
+}
+
+.enjoy-food-box {
+  position: absolute;
+  top: 5000px;
+  width: 726px;
+  height: 400px;
+  padding: 89px 103px 101px 101px;
+  border: solid 10px #e58f00;
+  justify-content: center;
+  margin: 50px 330px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(20, 19, 19, 0.671),
+    rgba(12, 12, 14, 0.603)
+  );
+}
+
+.enjoy-our-food-headline {
+  padding-left: 100px;
+}
+
+.enjoy-our-food-text {
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  padding-left: 1px;
+}
+
+.our-menu {
+  width: 100%;
+  height: 1200px;
+  padding-top: 200px;
+  background-color: #1d1d23;
+}
+
+.our-menu-headline {
+  padding: 40px 560px;
+}
+
+h3 {
+  font-size: 25px;
+  color: #e58f00;
+  padding-bottom: 15px;
+}
+
+.italian-source-text {
+  font-size: 15px;
+  color: white;
+}
+
+.italian-source-price {
+  font-size: 20px;
+  color: #e58f00;
+  padding-top: 20px;
+}
+
+.enjoy-best-meal {
+  background-color: #e58f00;
+  margin-top: auto;
+  height: 400px;
+}
+
+.enjoy-best-meal-box {
+  color: white;
+  position: absolute;
+  top: 7000px;
+  right: 280px;
+}
+
+.enjoy-best-meal-img {
+  margin: -150px 20px;
+}
+
+.enjoy-best-meal-text {
+  font-size: 20px;
+}
+
+.food-lover {
+  background-color: #1d1d23;
+  height: 490px;
+  width: 100%;
+}
+
+.food-lover-img {
+  width: 381px;
+  height: 79px;
+  margin: 220px 212px 61px 490px;
+}
+
+.footer-links {
+  width: 814px;
+  height: 16px;
+  margin: -20px 480px;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e7e6e6;
+}
+
+.footer-icons {
+  width: 200px;
+  height: 46px;
+  margin: 50px 25px 30px 650px;
+  object-fit: contain;
+  font-size: 20px;
+  color: #e7e6e6;
+}
+
+#facebook:hover {
+  color: rgb(32, 32, 212);
+}
+
+#twitter:hover {
+  color: #00acee;
+}
+
+#instagram:hover {
+  color: #bc2a8d;
+}
+
+#pinterest:hover {
+  color: #c8232c;
+}

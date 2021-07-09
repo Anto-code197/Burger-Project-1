@@ -1,0 +1,165 @@
+@media only screen and (max-width: 1200px) {
+  html,
+  body {
+    width: 100%;
+    margin: 0;
+  }
+
+  .left-nav {
+    width: 100%;
+  }
+
+  .breakfast-headline {
+    font-size: 20px;
+    margin-right: 0px;
+    position: absolute;
+    right: 70px;
+  }
+
+  .btn-container {
+    position: absolute;
+    right: 100px;
+  }
+
+  .aboutus-headline {
+    position: absolute;
+    right: 320px;
+  }
+
+  .aboutus-text {
+    font-size: 18px;
+  }
+
+  .egg-plate {
+    position: absolute;
+    top: 2300px;
+    right: 40px;
+  }
+
+  .strawberry-plate {
+    position: absolute;
+    top: 2500px;
+    left: -40px;
+  }
+
+  .strawberry-plate-img {
+    width: 450px;
+    height: 500px;
+  }
+
+  .our-food-gallery-headline {
+    font-size: 22px;
+  }
+
+  .enjoy-food-box {
+    position: absolute;
+    top: 4900px;
+  }
+
+  .row img {
+    width: 380px;
+    padding-left: 20px;
+  }
+
+  .our-food-gallery {
+    padding-left: 500px;
+  }
+
+  .our-menu-headline {
+    padding: 40px 520px;
+  }
+
+  .enjoy-best-meal-box {
+    position: absolute;
+    top: 6960px;
+    right: 130px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .breakfast-img {
+    position: absolute;
+    left: -40px;
+  }
+
+  .breakfast-headline {
+    position: absolute;
+    right: 14px;
+  }
+
+  .btn-container {
+    position: absolute;
+    right: 40px;
+    top: 430px;
+  }
+
+  .aboutus-img {
+    width: 430px;
+    height: 480px;
+  }
+
+  .food-quality {
+    width: 130%;
+  }
+
+  .egg-plate-img {
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    right: 40px;
+  }
+
+  .strawberry-plate-img {
+    position: absolute;
+    top: -30px;
+  }
+
+  .our-food-gallery-headline {
+    width: 280px;
+    position: absolute;
+    right: 300px;
+    margin: -50px;
+  }
+
+  .our-food-gallery {
+    padding: 50px 500px;
+  }
+
+  .enjoy-our-food {
+    background-size: 100%;
+    background-position-x: center;
+    width: 100%;
+    height: 2000px;
+    margin-top: -130px;
+    padding: 20px;
+  }
+
+  .enjoy-food-box {
+    position: absolute;
+    right: -180px;
+    margin-top: 0;
+    height: 350px;
+    width: 650px;
+  }
+
+  .our-menu-headline {
+    width: fit-content;
+  }
+
+  .italian-source-mushroom-headline {
+    font-size: 20px;
+  }
+
+  .italian-source-mushroom-text {
+    font-size: 15px;
+  }
+
+  .italian-source-mushroom {
+    padding: 10px 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
